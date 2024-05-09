@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/operational_bg"
+    tools:context=".cancel">
+
+    <EditText
+        android:id="@+id/pnrinp"
+        android:layout_width="213dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/behind"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bolditalic"
+        android:hint="PNR"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/but"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Cancel\nBooking"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pnrinp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/behind"
+        android:fontFamily="@font/roboto_bolditalic"
+        android:text="DISCLAIMER\nBefore you cancel your trip booking, make sure\nthat you are intentionally doing that\nBecause once you cancelled your trip\nyou cannot restore it twice"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
